@@ -115,7 +115,7 @@ $ git tag <Your_Tag_Name>
 $ git tag
 ```
 
-### 远程仓库
+### Git远程仓库
 #### 创建SSH Key
 ```bash
 $ ssh-keygen -t rsa -C "<Your_Email>"
@@ -130,7 +130,7 @@ $ git push -u origin master
 ```
 
 
-### 分支
+### Git分支
 #### 创建分支
 ```bash
 $ git branch <Your_Branch_Name>
@@ -168,7 +168,7 @@ $ git remote -v
 $ git push origin <Your_branch_Name>
 ```
 
-### 子模块
+### Git子模块
 #### 纳入子模块
 ```bash
 $ git add submodule add <Your_Sub_Name> sub
