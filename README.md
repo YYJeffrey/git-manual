@@ -128,7 +128,10 @@ $ git remote add origin <Your_Repository_Path>
 ```bash
 $ git push -u origin master
 ```
-
+#### 查看远程库信息
+```bash
+$ git remote -v
+```
 
 ### Git分支
 #### 创建分支
@@ -158,10 +161,6 @@ $ git rebase master
 #### 从版本库获取提交
 ```bash
 $ git fetch <Your_Clone_Name>
-```
-#### 查看远程库信息
-```bash
-$ git remote -v
 ```
 #### 从本地推送分支
 ```bash
