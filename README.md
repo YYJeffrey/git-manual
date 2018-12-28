@@ -86,15 +86,15 @@ $ git fsck
 ```bash
 $ git checkout -- <file>
 ```
-### 查看命令历史
+#### 查看命令历史
 ```bash
 $ git reflog
 ```
-### 版本回退
+#### 版本回退
 ```bash
 $ git reset --hard HEAD^
 ```
-### 回退指定版本号
+#### 回退指定版本号
 ```bash
 $ git reset --hard <Your_Commit_Id>
 ```
